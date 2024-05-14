@@ -1,0 +1,204 @@
+html {
+  height: 100%;
+  width: 100%;
+  flex: initial
+}
+/*-----------------*/
+/* Layout          */ 
+/*-----------------*/
+body{
+  background-color: #cfcfcf;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+main{
+  background-color: #e6e6e6;
+  margin-bottom: 190px;
+  padding-bottom: 5px;
+  width: 980px;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 2;
+  
+}
+#box{
+  background-color: #ffffff;
+  margin-bottom: 7%;
+  margin: 0 5px 0 5px;
+  display: flex;
+  flex-shrink: 1;
+  flex-direction: column;
+  max-width: min-content;
+}
+#box img{
+}
+.drawing{
+  max-width: auto;
+  max-height: auto;
+}
+h1{
+  margin: 15px 15px;
+  font-family: 'Courier New', courier, monospace;
+}
+
+span{
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 14px;
+  font-family: 'Courier New', courier, monospace;
+}
+
+#textbox{
+  padding: 0px 30px 0px 30px;
+}
+/*-----------------*/
+/* Command         */ 
+/*-----------------*/
+#command{
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-weight: Normal;
+  text-align: left;
+  display: flex;
+  padding: 30px 30px;
+  vertical-align: top;
+}
+h2{
+    font-weight: Normal;
+}
+#arrow{
+  margin-right: 5px;
+}
+a{
+    font-weight: Normal;
+}
+/*---------------------*/
+/* Discord chat        */ 
+/*---------------------*/
+.discord{
+  background-color: #313338;
+  color: #FFFFFF;
+  font-family: 'Whitney', sans-serif;
+  padding: 3px;
+}
+/*---------------------*/
+/* OLD Discord chat    */ 
+/*---------------------*/
+.olddiscord{
+  background-color: #313338;
+  text-align: left;
+  font-size: 0p;
+  font-family: 'Whitney', sans-serif;
+  padding: 3px;
+}
+.gatlingpea{
+  color: #24e31e;
+ font-family: 'gg sans Normal', sans-serif;
+    margin-right: 0px;
+}
+.uhmbreon{
+  color: #ffd358;
+  font-family: 'gg sans Normal', sans-serif;
+  margin-right: 0px;
+}
+.budgie{
+  color: #348adb;
+  font-family: 'gg sans Normal', sans-serif;
+  margin-right: 0px;
+}
+.peel{
+  color: #ff5ad3;
+  font-family: 'gg sans Normal', sans-serif;
+  margin-right: 0px;
+}
+.whitetext{
+  color: #FFFFFF;
+  margin-left: 0px;
+  font-family: 'gg sans Normal', sans-serif;
+  font-weight: 300;
+}
+/*-----------------*/
+/* Minecraft text  */ 
+/*-----------------*/
+.transparent{
+  background-color: #e6e6e6;
+}
+.minecraft{
+  background-color: #737373;
+  font-family: 'Minecraftia', sans-serif;
+  font-size: 12px;
+  color: white;
+  text-shadow: 1px 1px #878787;
+  font-weight: 300;
+  text-align: left;
+  padding: 3px;
+}
+.m{
+  font-family: 'Minecraftia', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-shadow: 1px 1px #878787;
+}
+.wt{
+  color: #FFFFFF;
+  font-family: 'gg sans Normal', sans-serif;
+  font-weight: 300;
+  margin-left:15px;
+}
+.forty-six{
+  width: 650px;
+  height:auto;
+    align-items: center;
+  flex:none;
+  min-width: auto;
+  min-height: auto;
+}
+.adventurelog{
+  text-align: left; 
+  font-style: arial;   
+  margin-left: 25px; 
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+header{
+  text-align: center;
+  font-size: 10px;
+  vertical-align: middle;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  margin: auto;
+  padding: 5px 0px 5px 0px;
+  background-color: black;
+  height:100%;
+  width: 950px;
+}
+header img{
+  height: 10px;
+  width: 10px;
+  align-items: center;
+}
+header span{
+  padding: 5px;
+  color: white;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-size: 10px;
+  align-items: center;
+  font-weight: bold;
+}
+.drawing{
+  align-items: center;
+  flex:none;
+  min-width: auto;
+  min-height: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+img.map {
+  display: block;
+}
+.map:hover{
+  outline: 5px rgba(255,255,255,0.8) solid;
+  outline-offset: -5px;
+
+}

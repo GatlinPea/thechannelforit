@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #a1a1a1;
+  
+}
+main{
+  background-color: #dedede;
+  margin-bottom: 10%;
+  padding-bottom: 3px;
+text-align: center;
+    width: 950px;
+  margin: auto;
+  padding: auto;
+}
+#box{
+  background-color: #EEEEEE;
+  margin-bottom: 7%;
+    text-align: center;
+  padding-top: 1px;
+  width: 650px;
+  margin: auto auto 7% auto;
+}
+.drawing{
+  align-items: center;
+  flex:none;
+  min-width: auto;
+  min-height: auto;
+}
+h1{
+  text-align: center;
+  vertical-align: middle;
+  margin: 15px 5px 15px 5px;
+  font-family: 'Courier New', courier, monospace;
+}
+
+span{
+  font-size: 14px;
+  font-weight: bold;
+  margin: 14px 14px 0px 14px;
+  font-family: 'Courier New', courier, monospace;
+
+}
+#textbox{
+    padding: 0px 30px 0px 30px;
+}
+
+#command{
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-weight: Normal;
+  text-align: left;
+  display: flex;
+  padding: 0px 30px 0px 30px;
+  vertical-align: top;
+}
+h2{
+    font-weight: Normal;
+}
+#arrow{
+  margin-right: 5px;
+}
+a{
+    font-weight: Normal;
+}
+.discord{
+  background-color: #313338;
+  text-align: left;
+  font-size: 0p;
+  font-family: 'Whitney', sans-serif;
+}
+.gatlingpea{
+  color: #24e31e;
+ font-family: 'gg sans Normal', sans-serif;
+    margin-right: 0px;
+}
+.uhmbreon{
+  color: #ffd358;
+  font-family: 'gg sans Normal', sans-serif;
+  margin-right: 0px;
+}
+.budgie{
+  color: #348adb;
+  font-family: 'gg sans Normal', sans-serif;
+  margin-right: 0px;
+}
+.peel{
+  color: #ff5ad3;
+  font-family: 'gg sans Normal', sans-serif;
+  margin-right: 0px;
+}
+.whitetext{
+  color: #FFFFFF;
+  margin-left: 0px;
+  font-family: 'gg sans Normal', sans-serif;
+  font-weight: 300;
+}
